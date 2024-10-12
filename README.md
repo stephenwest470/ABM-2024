@@ -12,8 +12,8 @@ In:. Barceló, JA and Del Castillo, F (eds.). Simulating Prehistoric and Ancient
 Springer International Publishing. pp. 311–334.
 
 ## Directories
-./sim9-1.3 #Directory with files needed to execute the simulation.
-./sim9-1.3/parameters #Directories with the input files and results for each parameter. Move files into sim9-1.3 directory and overwrite to replicate.
+- /sim9-1.3 #Directory with files needed to execute the simulation.
+- /sim9-1.3/parameters #Directories with the input files and results for each parameter. Move files into sim9-1.3 directory and overwrite to replicate.
 
 ## Files
 ### Input Files
@@ -29,6 +29,7 @@ Springer International Publishing. pp. 311–334.
     - Columms: area code, population distribution type (1 hunter-gatherer, 2 agriculturalist), initial population, male to female ratio, initial gvalue
 - Skill.txt (skill value of agents in each areɑ)
     - Column 1: area code. Columns 2~129: Female skill value between ages 0 and 127. Columns 130〜257: Male skill value between ages 0 and 127.
+
 ### Output Files
 - logN.txt #Log of the simulation output. I have compressed the original log files as they are very large.
 - poplog.data #Population totals per year for each simulation area (year, area 1, area 2, ...)
